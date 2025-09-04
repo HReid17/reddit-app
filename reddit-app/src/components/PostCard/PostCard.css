@@ -1,0 +1,85 @@
+.post-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.post-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+/* Votes Section (left column) */
+.post-votes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 12px;
+  color: #888;
+}
+
+.post-votes button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 4px 0;
+}
+
+.votes-total {
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+/* Main Content (right column) */
+.post-content {
+  flex: 1;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.post-image-container {
+  background: #f9f9f9;
+  border: 1px dashed #ddd;
+  border-radius: 4px;
+  min-height: 120px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer: author + comments */
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.username {
+  font-weight: 500;
+}
+
+.post-comments button {
+  background: none;
+  border: none;
+  color: #0079d3; /* Reddit blue */
+  cursor: pointer;
+  font-weight: 500;
+}

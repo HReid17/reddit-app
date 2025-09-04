@@ -1,0 +1,11 @@
+.page-layout {
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  gap: 16px;
+  padding: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
